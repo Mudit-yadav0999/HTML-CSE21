@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    border: 2px solid black;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+
+.navbar {
+    background: #1a1a1a;
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu li a,
+.right-menu a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    font-size: 14px;
+}
+
+.right-menu {
+    display: flex;
+    gap: 15px;
+}
+
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight:bold;
+}

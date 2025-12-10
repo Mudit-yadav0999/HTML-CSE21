@@ -1,0 +1,32 @@
+.b{
+    display: flex;
+    flex-direction: column;
+    display: inline-flex;
+    margin: 10px;
+    box-shadow: 1px 3px 3px 3px gray;
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2px;
+
+}
+h2{
+    display: inline-block;
+    text-align: center;
+    background-color:    rgb(78, 78, 218);
+    border-radius: 50px;
+    width:45px;
+    height: 43px;
+    color: antiquewhite;
+    padding: 25px;
+    align-items: center;
+    font-size: 30px;
+    
+    
+}
+.p{
+    margin: 5px;
+    padding: 10px;
+    font-size:20px;
+}
